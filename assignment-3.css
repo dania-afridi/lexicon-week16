@@ -8,8 +8,58 @@
     border-radius,
     max-width
  */
-
-
+body{
+    margin: 0 auto;
+    padding: 125px;
+    background-color: bisque;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    gap: 30px;
+    border: navy solid;
+    border-radius: 24px;
+    color:darkgreen;
+    background-color: aliceblue;   
+}
+h2 {
+    color: navy;
+}
+p{
+    font-size: large;
+    line-height: 26px;
+}
+article{
+    border: brown solid;
+    padding: 16px;
+    background-color: lightyellow;
+    border-radius: 16px;
+}
 @media screen and (max-width: 900px) {
-
+    body{
+        padding: 24px;
+        margin-top: 85px;
+        background-color: lightgray;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        /*align-items: flex-start;*/
+        justify-content: space-evenly;
+        gap: 38px;
+        margin: 0 auto;
+        padding: 26px;
+        border: navy solid;
+        border-radius: 24px;
+        color:darkgreen;
+        background-color: aliceblue;
+        color: brown;
+    }
+    h2{
+        color: rgb(79, 117, 117);
+    }
+    article{ 
+        border: yellowgreen solid;
+    }
 }
