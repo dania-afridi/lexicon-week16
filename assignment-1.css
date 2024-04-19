@@ -7,36 +7,96 @@
     justify-content,
     align-items
  */
- body {
+body {
     margin: 0;
     padding: 0;
-    background-color: beige;
- }
- header {
-    margin: 60px;
-    padding-top: 24px;
-    background-color: lightgray;
-    border-radius: 32px ;
+    background-color: gray;
     color: black;
-    font-size: 26px;
  }
- .site-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:flex-start;
+
+#site-brand {
+   font-size: 34px;
+   color: yellow;
+   font-weight: 600;
+   margin: 16px 152px;
+}
+.site-header nav > ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#head-menu nav >ul {
+   margin: 0 428px 18px;
+   max-width: 650px;
+   font-size: 21px;
+}
+
+#head-menu nav >ul a {
+   font-size: 26px;
+}
+#promotion a {
+    color:yellow;
+    font-size: 21px;
+    border: solid yellow;
  }
- ul {
+
+#login a {
+    background-color: yellow;
+    color: navy;
+    padding: 4px 18px 6px;
+    font-weight: bold;
+    border-radius: 2px;
+    position: absolute;
+    right: 152px;
+    top: 108px;
+
+}
+
+#promotion {
+    position: absolute;
+    right: 260px;
+    top: 116px;
+}
+
+ul {
     padding: 0;
-    margin: 30px;
     list-style: none;
     display: flex;
  }
+
  li {
     padding: 16px;
  }
- a {
-    text-decoration: none;
-    font-size: 18px;
+
+a{
+   margin-bottom: 0;
+   text-decoration: none;
+   font-size: 21px;
+   color: whitesmoke;
  }
+
+ header {
+    margin: 60px 0;
+    padding: 0;
+    padding-top: 24px;
+    background-color:navy;
+ }
+
+#sub-menu ul{
+   border: whitesmoke solid;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto 18px;
+   background-color: yellow;
+   padding: 0 100px;
+   gap: 30px;
+ }
+
+ #sub-menu a {
+    color: navy;
+    font-size: 21px;
+    font-weight: 600;
+ }
+
 
